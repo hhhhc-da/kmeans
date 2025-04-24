@@ -268,7 +268,7 @@ C2
 
 
 
-求最新的中心点 $ x_i = \frac{\sum_{C_j∈C_i} x_j}{N}，y_i = \frac{\sum_{C_j∈C_i} y_j}{N}，其中 N 为该分类点数$
+求最新的中心点 $` x_i = \frac{\sum_{C_j∈C_i} x_j}{N}，y_i = \frac{\sum_{C_j∈C_i} y_j}{N}，其中 N 为该分类点数`$
 
 
 ```python
