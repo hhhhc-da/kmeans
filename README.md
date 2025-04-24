@@ -82,20 +82,20 @@ c = [[0,0], [5,5]]
 
 我们先规定我们的数据
 
-$X =  \begin{bmatrix}
+$` X =  \begin{bmatrix}
 0 & 0 \\
 2 & 2 \\
 3 & 3 \\
 5 & 5 \\
-\end{bmatrix}$ ，
-$ K = \begin{bmatrix}
+\end{bmatrix} `$ ，
+$` K = \begin{bmatrix}
 r_x & r_y 
-\end{bmatrix}$ ，
-$
+\end{bmatrix} `$ ，
+$`
 S = \begin{bmatrix}
 1 \\
 1
-\end{bmatrix}$
+\end{bmatrix} `$
 
 实际运算中，会自动进行形状适配，对维度为 $1$ 的部分进行扩充
 
