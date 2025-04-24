@@ -78,20 +78,26 @@ pf
 c = [[0,0], [5,5]]
 ```
 
-逐个进行求 $R^2$ 空间内的距离 d(x_i, c_i) = \sum_{x_i ∈ X, c_i ∈ C} \sqrt{|| c_i - x_i ||^2}
+逐个进行求 $R^2$ 空间内的距离 $d(x_i, c_i) = \sum_{x_i ∈ X, c_i ∈ C} \sqrt{|| c_i - x_i ||^2}$
 
 我们先规定我们的数据
 
-$ X =  \begin{bmatrix}
+$ 
+X = \begin{bmatrix}
 0 & 0 \\
 2 & 2 \\
 3 & 3 \\
 5 & 5 \\
-\end{bmatrix}$ ，
-$ K = \begin{bmatrix}
-r_x & r_y 
-\end{bmatrix}$ ，
+\end{bmatrix}
 $
+
+$ 
+K = \begin{bmatrix}
+r_x & r_y 
+\end{bmatrix}
+$
+
+$ 
 S = \begin{bmatrix}
 1 \\
 1
