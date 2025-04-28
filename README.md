@@ -2,7 +2,6 @@
 ---
 
 
-
 ```python
 import random
 import numpy as np
